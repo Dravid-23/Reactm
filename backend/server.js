@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 
-mongoose.connect('mongodb://localhost:27017')
+mongoose.connect('mongodb+srv://dravid5372:<db_password>@data.og3hfja.mongodb.net/?retryWrites=true&w=majority&appName=Data')
 .then(()=>{
     console.log("Mongodeb connected")
 })
